@@ -1,0 +1,16 @@
+ADN="GATGGAACTTGACTACGTAAATT"
+def Transcripicion(cadena):
+    rna=[]
+    for i in cadena:
+        if i =="A":
+            rna.append("U")
+        if i=="T":
+            rna.append("A")
+        if i=="C":
+            rna.append("G")
+        if i=="G":
+            rna.append("C")
+    print( "".join(x for x in rna))
+    
+    
+Transcripicion(ADN)
