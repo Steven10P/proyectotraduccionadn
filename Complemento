@@ -1,0 +1,15 @@
+ADN="GATGGAACTTGACTACGTAAATT"
+def INVERSO(cadena):
+    adn=[]
+    for i in cadena:
+        if i =="A":
+            adn.append("T")
+        if i=="T":
+            adn.append("A")
+        if i=="C":
+            adn.append("G")
+        if i=="G":
+            adn.append("C")
+    a=print( "".join(x for x in adn))
+    return a
+INVERSO(ADN)
