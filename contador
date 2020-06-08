@@ -14,7 +14,6 @@ def contar(cadena):
         if i=="G":
             g+=1
             
-    veces=[a,c,g,t]
-    return veces
-
-print(contar(ADN))
+    d=print("A =" ,a,"C=",c,"G=",g,"T=",t)
+    return d
+contar(ADN)
