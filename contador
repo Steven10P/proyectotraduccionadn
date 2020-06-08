@@ -1,0 +1,20 @@
+ADN="AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC"
+def contar(cadena):
+    a=0
+    g=0
+    t=0
+    c=0
+    for i in cadena:
+        if i =="A":
+            a+=1
+        if i=="T":
+            t+=1
+        if i=="C":
+            c+=1
+        if i=="G":
+            g+=1
+            
+    veces=[a,c,g,t]
+    return veces
+
+print(contar(ADN))
